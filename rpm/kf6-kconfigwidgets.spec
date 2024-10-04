@@ -33,7 +33,6 @@ well as a set of widgets which uses KConfig to store their settings.
 %package        devel
 Summary:        Development files for %{name}
 Requires:       %{name}%{?_isa} = %{version}-%{release}
-Requires:       kf6-kauth-devel
 Requires:       kf6-kcodecs-devel
 Requires:       kf6-kcolorscheme-devel
 Requires:       kf6-kconfig-devel
