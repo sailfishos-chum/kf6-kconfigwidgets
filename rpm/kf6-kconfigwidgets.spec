@@ -41,13 +41,6 @@ Requires:       kf6-kwidgetsaddons-devel
 The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
-%package        doc
-Summary:        Developer Documentation files for %{name}
-BuildArch:      noarch
-%description    doc
-Developer Documentation files for %{name} for use with KDevelop or QtCreator.
-
-
 %prep
 %autosetup -n %{name}-%{version}/upstream -p1
 
@@ -72,7 +65,3 @@ Developer Documentation files for %{name} for use with KDevelop or QtCreator.
 %{_kf6_libdir}/libKF6ConfigWidgets.so
 %{_kf6_libdir}/cmake/KF6ConfigWidgets/
 %{_kf6_libdir}/qt6/plugins/designer/kconfigwidgets6widgets.so
-%{_qt6_docdir}/*.tags
-
-%files doc
-%{_qt6_docdir}/*.qch
