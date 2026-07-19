@@ -1,7 +1,7 @@
 %global  kf_version 6.6.0
 
 Name:    kf6-kconfigwidgets
-Version: 6.18.0
+Version: 6.28.0
 Release: 0%{?dist}
 Summary: KDE Frameworks 6 Tier 3 addon for creating configuration dialogs
 
